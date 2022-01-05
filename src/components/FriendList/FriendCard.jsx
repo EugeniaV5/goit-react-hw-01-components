@@ -13,7 +13,7 @@ export const FriendCard = ({ friend: { avatar, name, isOnline } }) => {
 };
 
 FriendCard.prototypes = {
-  friend: PropTypes.arrayOf(
+  friend: PropTypes.objectOf(
     PropTypes.shape({
       avatar: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
