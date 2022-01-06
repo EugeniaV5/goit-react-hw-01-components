@@ -7,7 +7,6 @@ export const Table = styled.table`
 
 export const TableHeader = styled.thead`
   background-color: rgba(27, 199, 244, 0.57);
-  /* border: 1px solid #ececec; */
 `;
 
 export const TableRow = styled.tr`
@@ -16,10 +15,6 @@ export const TableRow = styled.tr`
   }
 `;
 
-export const TableTh = styled.th``;
-
 export const TableTd = styled.td`
   text-align: center;
 `;
-
-export const TableBody = styled.td``;

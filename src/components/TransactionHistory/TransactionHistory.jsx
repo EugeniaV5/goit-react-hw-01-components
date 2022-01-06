@@ -1,12 +1,6 @@
 import PropTypes from 'prop-types';
 import { Section } from '../common/Section.styled';
-import {
-  TableHeader,
-  Table,
-  TableTh,
-  TableTd,
-  TableRow,
-} from './Transactions.styled';
+import { TableHeader, Table, TableTd, TableRow } from './Transactions.styled';
 
 export const TransactionHistory = ({ items }) => {
   return (
@@ -14,9 +8,9 @@ export const TransactionHistory = ({ items }) => {
       <Table>
         <TableHeader>
           <TableRow>
-            <TableTh>Type</TableTh>
-            <TableTh>Amount</TableTh>
-            <TableTh>Currency</TableTh>
+            <th>Type</th>
+            <th>Amount</th>
+            <th>Currency</th>
           </TableRow>
         </TableHeader>
 

@@ -12,12 +12,10 @@ export const FriendCard = ({ friend: { avatar, name, isOnline } }) => {
   );
 };
 
-FriendCard.prototypes = {
-  friend: PropTypes.objectOf(
-    PropTypes.shape({
-      avatar: PropTypes.string.isRequired,
-      name: PropTypes.string.isRequired,
-      isOnline: PropTypes.bool.isRequired,
-    }).isRequired,
-  ),
+FriendCard.propTypes = {
+  friend: PropTypes.shape({
+    avatar: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    isOnline: PropTypes.bool.isRequired,
+  }).isRequired,
 };
